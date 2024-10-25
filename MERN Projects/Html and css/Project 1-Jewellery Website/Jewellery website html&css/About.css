@@ -1,0 +1,102 @@
+*{
+    scroll-behavior:auto;
+}
+body{
+    height: 100vh;
+    background-color: beige;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+}
+#brandname{
+    position: relative;
+    left: 5px;
+    bottom: 3px;
+    font-size: 40px;
+    font-family: Monsieur La Doulaise;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 6px 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*z-index: 10;*/
+}
+
+.nav-links a{
+    font-size: 20px;
+    color: #5e442e;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.nav-links a:hover{
+    background-color: #5e442e;
+    color: white;
+    border-radius: 5%;
+    padding: 2px 15px;
+}
+
+.container-about{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    /*background-image: url(pics/pastel_pink_elegant_alcohol_ink_design_with_gold_glitter_2802.jpg);*/
+}
+
+#About{
+    color: #5e442e;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    margin-left: 41%;
+    background-color: #c39a7e;
+    margin-right: auto;
+    padding: 12px 40px;
+    border-radius: 10%;
+}
+
+.image{
+    width: 40%;
+    position: relative;
+    right: 100px;
+}
+
+
+.first, .second, .third{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.first img{
+    width: 70%;
+    border-radius: 5%;
+}
+.text{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+.second img{
+    width: 70%;
+    border-radius: 5%;
+}
+
+.third img{
+    width: 70%;
+    border-radius: 5%;
+}

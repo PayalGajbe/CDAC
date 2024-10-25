@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: beige;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+}
+#brandname{
+    position: relative;
+    left: 5px;
+    bottom: 3px;
+    font-size: 40px;
+    font-family: Monsieur La Doulaise;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px -2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.nav-links a{
+    font-size: 20px;
+    color: #5e442e;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.nav-links a:hover{
+    background-color: #5e442e;
+    color: white;
+    border-radius: 5%;
+    padding: 2px 15px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+/*------------------------*/
+
+.container{
+    position: absolute;
+    left: 55%;
+    top: 90px;
+    width: 350px;
+    height: 450px;
+    margin: 100px;
+    text-align: center;
+    background-color: #c39a7e;
+    border-radius: 5%;
+}
+
+#login{
+    position: relative;
+    top:20px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: #5e442e;
+
+}
+input{
+    position: relative;
+    padding-top: 80px;
+    margin: 15px;
+    padding: 10px 40px;
+    text-align: left;
+    border-radius: 3%;
+    border: none;
+
+}
+#btn{
+    margin: 40px;
+    padding: 10px;
+    color: white;
+    background-color: #5e442e;
+    border: 0;
+    border-radius: 3%;
+    padding: 15px 50px;
+    font-size: 20px;
+}
+
+#btn:hover {
+    background-color: white;
+    color: #5e442e;
+}
+
+#forgot{
+    position: relative;
+    margin: 50px;
+    text-decoration: none;
+    color: #5e442e;
+}
